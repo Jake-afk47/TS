@@ -1,4 +1,4 @@
-// Variavel number;
+console.log("Variavel number")
 
 let x: number = 7
 
@@ -10,9 +10,9 @@ console.log(typeof x)
 console.log(y.toPrecision(2))
 console.log(typeof y)
 
+console.log("=============================")
 
-
-//Variavrl string;
+console.log("Variavel string")
 
 const fistName: string = "Paulo"
 
@@ -24,9 +24,10 @@ const lestName: string = "Vinicius"
 
 console.log(fullName = fistName + " " + lestName);
 
+console.log("=============================")
 
+console.log("Variavel boolean")
 
-// Variavel boolean;
 
 let u = true
 

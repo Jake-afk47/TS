@@ -37,3 +37,11 @@ u = false
 
 console.log(u)
 console.log(typeof u)
+
+console.log("=============================")
+
+console.log("inferência x annotation")
+
+let ann: string = "Paulo" // annotation
+
+let inf: "Paulo" //inferencia

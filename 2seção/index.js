@@ -19,3 +19,7 @@ console.log(u);
 u = false;
 console.log(u);
 console.log(typeof u);
+console.log("=============================");
+console.log("inferência x annotation");
+var ann = "Paulo"; // annotation
+var inf; //inferencia

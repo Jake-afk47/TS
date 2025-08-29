@@ -1,4 +1,4 @@
-console.log("Variavel number")
+//variavel number
 
 let x: number = 7
 
@@ -12,7 +12,7 @@ console.log(typeof y)
 
 console.log("=============================")
 
-console.log("Variavel string")
+//Variavel string
 
 const fistName: string = "Paulo"
 
@@ -25,9 +25,7 @@ const lestName: string = "Vinicius"
 console.log(fullName = fistName + " " + lestName);
 
 console.log("=============================")
-
-console.log("Variavel boolean")
-
+//Variavel boolean
 
 let u = true
 
@@ -40,7 +38,7 @@ console.log(typeof u)
 
 console.log("=============================")
 
-console.log("inferência x annotation")
+//inferência x annotation
 
 let ann: string = "Paulo" // annotation
 

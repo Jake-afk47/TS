@@ -3,8 +3,8 @@ var numeros = [1, 2, 3, 4];
 numeros.push(4);
 console.log(numeros[0]);
 var nomes = ["Paulo", "Erick", "Gabriel gay"];
-nomes.push("Paulo");
-console.log(nomes[0]);
+nomes.push("Gustavo");
+console.log(nomes[2]);
 //Outra forma de fazer o arrey
 var numerals = [500, 600];
 numerals.push(700);
@@ -22,9 +22,9 @@ function subtração(a, b) {
 subtração(20, 30);
 //Retorno
 function pão(nome) {
-    return "Bem-vindo ".concat(nome);
+    return "O ".concat(nome, " \u00E9 um GAY");
 }
-console.log(pão("Paulo"));
+console.log(pão("Gabriel"));
 //Anonimas
 setTimeout(function () {
     //const cafe: string = 'pao e cafe'

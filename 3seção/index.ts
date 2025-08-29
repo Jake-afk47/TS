@@ -8,9 +8,9 @@ console.log(numeros[0])
 
 let nomes: string[] = ["Paulo", "Erick", "Gabriel gay"]
 
-nomes.push("Paulo")
+nomes.push("Gustavo")
 
-console.log(nomes[0])
+console.log(nomes[2])
 
 //Outra forma de fazer o arrey
 
@@ -42,10 +42,10 @@ subtração(20,30)
 //Retorno
 
 function pão(nome: string): string{
-    return `Bem-vindo ${nome}`
+    return `O ${nome} é um GAY`
 }
 
-console.log(pão("Paulo"))
+console.log(pão("Gabriel"))
 
 
 

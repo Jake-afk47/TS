@@ -70,3 +70,36 @@ const casa = {x: 40, y: 50}
 
 parametro(casa)
 
+
+// Prop opcionais
+
+function showNumbers(a: number, b: number, c?: number){
+    console.log("A: ", a)
+    console.log("B: ", b)
+    console.log("C: ", c)
+}
+showNumbers(1,2)
+
+
+// Validadando o argumento opcional
+
+function namefunc(primeiroNome: string, ultimoNome?: string){
+    if(ultimoNome !== undefined){
+        return `Ola, ${primeiroNome} ${ultimoNome}, tudo bem?`
+    }
+
+    return `Ola, ${primeiroNome}, tudo bem?`
+}
+
+console.log(namefunc("Paulo", "Gervazio"))
+console.log(namefunc("Paulo"))
+
+
+// union type
+
+function senha(item: string | number){
+    console.log(`comfirme sua senha: ${item}`)
+}
+
+senha("venom2070")
+senha(2070)

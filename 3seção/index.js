@@ -37,3 +37,25 @@ function parametro(cord) {
 }
 var casa = { x: 40, y: 50 };
 parametro(casa);
+// Prop opcionais
+function showNumbers(a, b, c) {
+    console.log("A: ", a);
+    console.log("B: ", b);
+    console.log("C: ", c);
+}
+showNumbers(1, 2);
+// Validadando o argumento opcional
+function namefunc(primeiroNome, ultimoNome) {
+    if (ultimoNome !== undefined) {
+        return "Ola, ".concat(primeiroNome, " ").concat(ultimoNome, ", tudo bem?");
+    }
+    return "Ola, ".concat(primeiroNome, ", tudo bem?");
+}
+console.log(namefunc("Paulo", "Gervazio"));
+console.log(namefunc("Paulo"));
+// union type
+function senha(item) {
+    console.log("comfirme sua senha: ".concat(item));
+}
+senha("venom2070");
+senha(2070);

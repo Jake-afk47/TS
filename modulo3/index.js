@@ -59,3 +59,17 @@ function senha(item) {
 }
 senha("venom2070");
 senha(2070);
+// avançando em union type
+function showAd(ad) {
+    if (typeof ad == "boolean") {
+        return "Você não foi aprovado";
+    }
+    return "Bem vindo ".concat(ad);
+}
+console.log(showAd(false));
+console.log(showAd("Admin"));
+function showId(id) {
+    console.log("O ID \u00E9: ".concat(id));
+}
+showId(9);
+showId(10921717841);

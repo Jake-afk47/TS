@@ -103,3 +103,29 @@ function senha(item: string | number){
 
 senha("venom2070")
 senha(2070)
+
+
+
+// avançando em union type
+
+function showAd(ad: boolean | string){
+    if(typeof ad == "boolean"){
+        return "Você não foi aprovado"
+    }
+    return `Bem vindo ${ad}`
+}
+
+console.log(showAd(false))
+console.log(showAd("Admin"))
+
+
+// type alias
+
+type ID = string | number 
+
+function showId(id: ID) {
+    console.log(`O ID é: ${id}`)
+}
+
+showId(9)
+showId(10921717841)

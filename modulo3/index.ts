@@ -129,3 +129,72 @@ function showId(id: ID) {
 
 showId(9)
 showId(10921717841)
+
+
+// interface
+
+interface Point {
+    x: number,
+    y: number,
+    z: number
+}
+
+function showPoint(obj: Point){
+    console.log(`X: ${obj.x}, Y: ${obj.y}, Z: ${obj.z}`)
+}
+
+const coords: Point = {
+    x : 35,
+    y : 14,
+    z : 45
+}
+
+
+showPoint(coords)
+
+// interface x type alias
+
+//interface, e possivel fazer modificaçôes durante o codigo
+interface Person {
+    name: string
+}
+
+interface Person {
+    age: number
+}
+
+const showPerson : Person  = {name : "Paulo", age : 19}
+
+
+console.log(showPerson)
+
+//como o type alias não e possivel fazer essa alteração durante o codigo
+
+
+type person = {
+    name: string
+}
+
+
+// literal type
+
+//ele e um negocio que da um unico valor para uma vaiavel, mas ela e muito usada junto com union type
+
+let test : "Testando"
+
+test = "Testando"
+
+console.log(test)
+
+
+function direção (de :"esquerda" | "direita" | "reto"){
+    console.log(`A direção escolhida é: ${de}`)
+}
+
+direção("reto")
+
+// nom null assection operator
+
+const p = document.getElementById("ola")
+
+console.log(p!.innerText)

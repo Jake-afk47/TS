@@ -12,7 +12,7 @@ nomes.push("Gustavo")
 
 console.log(nomes[2])
 
-//Outra forma de fazer o arrey
+//Outra forma de fazer o array
 
 const numerals: Array<number> = [500, 600]
 
@@ -198,3 +198,20 @@ direção("reto")
 const p = document.getElementById("ola")
 
 console.log(p!.innerText)
+
+// bigint 
+
+//let a : bigint
+
+//a = 500n
+
+//console.log(a)
+
+// symbol
+
+//let symbolA: symbol = Symbol("a")
+//let symbolb: symbol = Symbol("a")
+
+//console.log(symbolA == symbolb)
+//console.log(symbolA === symbolb)
+

@@ -1,5 +1,6 @@
-var fistNumber = 7;
-var secondNumber = 3;
+"use strict";
+const fistNumber = 7;
+const secondNumber = 3;
 function addNumbers(a, b) {
     return a + b;
 }
